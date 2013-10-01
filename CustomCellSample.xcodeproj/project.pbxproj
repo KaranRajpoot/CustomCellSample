@@ -12,12 +12,19 @@
 		B08EE77117F35B33007D8BF4 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B08EE77017F35B33007D8BF4 /* CoreGraphics.framework */; };
 		B08EE77717F35B33007D8BF4 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = B08EE77517F35B33007D8BF4 /* InfoPlist.strings */; };
 		B08EE77917F35B33007D8BF4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = B08EE77817F35B33007D8BF4 /* main.m */; };
-		B08EE77D17F35B33007D8BF4 /* RootViewControllerAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B08EE77C17F35B33007D8BF4 /* RootViewControllerAppDelegate.m */; };
+		B08EE77D17F35B33007D8BF4 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = B08EE77C17F35B33007D8BF4 /* AppDelegate.m */; };
 		B08EE77F17F35B33007D8BF4 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = B08EE77E17F35B33007D8BF4 /* Default.png */; };
 		B08EE78117F35B33007D8BF4 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08EE78017F35B33007D8BF4 /* Default@2x.png */; };
 		B08EE78317F35B33007D8BF4 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = B08EE78217F35B33007D8BF4 /* Default-568h@2x.png */; };
 		B08EE78617F35B33007D8BF4 /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B08EE78417F35B33007D8BF4 /* MainStoryboard.storyboard */; };
-		B08EE78917F35B33007D8BF4 /* RootViewControllerViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08EE78817F35B33007D8BF4 /* RootViewControllerViewController.m */; };
+		B08EE78917F35B33007D8BF4 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08EE78817F35B33007D8BF4 /* RootViewController.m */; };
+		B08EE79217F35CCB007D8BF4 /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = B08EE79017F35CCB007D8BF4 /* DetailViewController.m */; };
+		B0A9215017F9F3B2002B136B /* australia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B0A9214A17F9F3B2002B136B /* australia.jpeg */; };
+		B0A9215117F9F3B2002B136B /* france.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B0A9214B17F9F3B2002B136B /* france.jpeg */; };
+		B0A9215217F9F3B2002B136B /* india.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B0A9214C17F9F3B2002B136B /* india.jpeg */; };
+		B0A9215317F9F3B2002B136B /* japan.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B0A9214D17F9F3B2002B136B /* japan.jpeg */; };
+		B0A9215417F9F3B2002B136B /* rusia.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B0A9214E17F9F3B2002B136B /* rusia.jpeg */; };
+		B0A9215517F9F3B2002B136B /* usa.jpeg in Resources */ = {isa = PBXBuildFile; fileRef = B0A9214F17F9F3B2002B136B /* usa.jpeg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,14 +36,22 @@
 		B08EE77617F35B33007D8BF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		B08EE77817F35B33007D8BF4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		B08EE77A17F35B33007D8BF4 /* CustomCellSample-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "CustomCellSample-Prefix.pch"; sourceTree = "<group>"; };
-		B08EE77B17F35B33007D8BF4 /* RootViewControllerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewControllerAppDelegate.h; sourceTree = "<group>"; };
-		B08EE77C17F35B33007D8BF4 /* RootViewControllerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewControllerAppDelegate.m; sourceTree = "<group>"; };
+		B08EE77B17F35B33007D8BF4 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		B08EE77C17F35B33007D8BF4 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		B08EE77E17F35B33007D8BF4 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
 		B08EE78017F35B33007D8BF4 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
 		B08EE78217F35B33007D8BF4 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		B08EE78517F35B33007D8BF4 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
-		B08EE78717F35B33007D8BF4 /* RootViewControllerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewControllerViewController.h; sourceTree = "<group>"; };
-		B08EE78817F35B33007D8BF4 /* RootViewControllerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewControllerViewController.m; sourceTree = "<group>"; };
+		B08EE78717F35B33007D8BF4 /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		B08EE78817F35B33007D8BF4 /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		B08EE78F17F35CCB007D8BF4 /* DetailViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		B08EE79017F35CCB007D8BF4 /* DetailViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		B0A9214A17F9F3B2002B136B /* australia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = australia.jpeg; sourceTree = "<group>"; };
+		B0A9214B17F9F3B2002B136B /* france.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = france.jpeg; sourceTree = "<group>"; };
+		B0A9214C17F9F3B2002B136B /* india.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = india.jpeg; sourceTree = "<group>"; };
+		B0A9214D17F9F3B2002B136B /* japan.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = japan.jpeg; sourceTree = "<group>"; };
+		B0A9214E17F9F3B2002B136B /* rusia.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = rusia.jpeg; sourceTree = "<group>"; };
+		B0A9214F17F9F3B2002B136B /* usa.jpeg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = usa.jpeg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +71,12 @@
 		B08EE76017F35B33007D8BF4 = {
 			isa = PBXGroup;
 			children = (
+				B0A9214A17F9F3B2002B136B /* australia.jpeg */,
+				B0A9214B17F9F3B2002B136B /* france.jpeg */,
+				B0A9214C17F9F3B2002B136B /* india.jpeg */,
+				B0A9214D17F9F3B2002B136B /* japan.jpeg */,
+				B0A9214E17F9F3B2002B136B /* rusia.jpeg */,
+				B0A9214F17F9F3B2002B136B /* usa.jpeg */,
 				B08EE77217F35B33007D8BF4 /* CustomCellSample */,
 				B08EE76B17F35B33007D8BF4 /* Frameworks */,
 				B08EE76A17F35B33007D8BF4 /* Products */,
@@ -83,11 +104,13 @@
 		B08EE77217F35B33007D8BF4 /* CustomCellSample */ = {
 			isa = PBXGroup;
 			children = (
-				B08EE77B17F35B33007D8BF4 /* RootViewControllerAppDelegate.h */,
-				B08EE77C17F35B33007D8BF4 /* RootViewControllerAppDelegate.m */,
+				B08EE77B17F35B33007D8BF4 /* AppDelegate.h */,
+				B08EE77C17F35B33007D8BF4 /* AppDelegate.m */,
 				B08EE78417F35B33007D8BF4 /* MainStoryboard.storyboard */,
-				B08EE78717F35B33007D8BF4 /* RootViewControllerViewController.h */,
-				B08EE78817F35B33007D8BF4 /* RootViewControllerViewController.m */,
+				B08EE78717F35B33007D8BF4 /* RootViewController.h */,
+				B08EE78817F35B33007D8BF4 /* RootViewController.m */,
+				B08EE78F17F35CCB007D8BF4 /* DetailViewController.h */,
+				B08EE79017F35CCB007D8BF4 /* DetailViewController.m */,
 				B08EE77317F35B33007D8BF4 /* Supporting Files */,
 			);
 			path = CustomCellSample;
@@ -164,6 +187,12 @@
 				B08EE78117F35B33007D8BF4 /* Default@2x.png in Resources */,
 				B08EE78317F35B33007D8BF4 /* Default-568h@2x.png in Resources */,
 				B08EE78617F35B33007D8BF4 /* MainStoryboard.storyboard in Resources */,
+				B0A9215017F9F3B2002B136B /* australia.jpeg in Resources */,
+				B0A9215117F9F3B2002B136B /* france.jpeg in Resources */,
+				B0A9215217F9F3B2002B136B /* india.jpeg in Resources */,
+				B0A9215317F9F3B2002B136B /* japan.jpeg in Resources */,
+				B0A9215417F9F3B2002B136B /* rusia.jpeg in Resources */,
+				B0A9215517F9F3B2002B136B /* usa.jpeg in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -175,8 +204,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				B08EE77917F35B33007D8BF4 /* main.m in Sources */,
-				B08EE77D17F35B33007D8BF4 /* RootViewControllerAppDelegate.m in Sources */,
-				B08EE78917F35B33007D8BF4 /* RootViewControllerViewController.m in Sources */,
+				B08EE77D17F35B33007D8BF4 /* AppDelegate.m in Sources */,
+				B08EE78917F35B33007D8BF4 /* RootViewController.m in Sources */,
+				B08EE79217F35CCB007D8BF4 /* DetailViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,6 +329,7 @@
 				B08EE78E17F35B33007D8BF4 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

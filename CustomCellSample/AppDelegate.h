@@ -1,5 +1,5 @@
 //
-//  RootViewControllerViewController.h
+//  RootViewControllerAppDelegate.h
 //  CustomCellSample
 //
 //  Created by Roy on 9/25/13.
@@ -8,6 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface RootViewControllerViewController : UIViewController
+@interface AppDelegate : UIResponder <UIApplicationDelegate>
+
+@property (strong, nonatomic) UIWindow *window;
 
 @end

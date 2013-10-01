@@ -6,13 +6,15 @@
 //  Copyright (c) 2013 KMG Infotech. All rights reserved.
 //
 
-#import "RootViewControllerAppDelegate.h"
+#import "AppDelegate.h"
 
-@implementation RootViewControllerAppDelegate
+@implementation AppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     // Override point for customization after application launch.
+    [[UINavigationBar appearance] setTintColor:[UIColor brownColor]];
+
     return YES;
 }
 							
